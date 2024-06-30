@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#restart-button {
+    grid-column: 2 / 3;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.square {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+#title {
+    font-size: 50px;
+    color: black;
+}
+.message {
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+dialog {
+    border-radius: 10px;
+}
+#form {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+#form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#playerOne-container,
+#playerTwo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#playerOne,
+#playerTwo {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+label {
+    font-size: 18px;
+}
+
+#submit-btn {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#winner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#winner-p {
+    font-size:50px;
+}
+
+#play-again-btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
